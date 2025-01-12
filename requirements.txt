@@ -1,3 +1,7 @@
 nltk
 scikit-learn
 streamlit
+seaborn
+vaderSentiment
+pandas
+numpy
