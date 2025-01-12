@@ -13,7 +13,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import seaborn as sns
 import  matplotlib.pyplot as plt
 
-dt= pd.read_csv('/Users/ainanadhirah/Desktop/data.csv')
+dt= pd.read_csv('annotated copy.csv')
 df = pd.read_csv('/Users/ainanadhirah/Downloads/annotated.csv')
 
 
@@ -147,7 +147,7 @@ elif page == "About":
     st.write("""
     With the popularity of social media , cyber threats can happen at any moment with just one click.
     As social media is an readily available platform , it becomes easy for average social media users to exploit it for malicious purposes. 
-    Many discussions and posts online revolves around cybersecurity topics be it about current news ,experiences or . 
+    Many discussions and posts online revolves around cybersecurity topics be it about current news or experiences . 
 
     Thus, it is imperative to understand the category and emotional tone of these discussions as cyber threats continue 
     to proliferate. This issue must be addressed as cyber threats can interfere with one's life and cause social unrest.
