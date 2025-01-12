@@ -13,6 +13,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import seaborn as sns
 import  matplotlib.pyplot as plt
 
+dt= pd.read_csv('/Users/ainanadhirah/Downloads/Amazon_Consumer.csv')
 df = pd.read_csv('/Users/ainanadhirah/Downloads/annotated.csv')
 
 
