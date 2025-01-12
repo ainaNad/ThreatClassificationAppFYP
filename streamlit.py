@@ -25,7 +25,7 @@ nltk.download('punkt_tab')
 nltk.download('vader_lexicon')
 
 file_id = '1zauP9YXo0diog1D8CMEv1Q8RprQ6vpQh'
-url = f'https://drive.google.com/uc?export=download&id={file_id}'
+url = f'https://drive.google.com/uc?id=1zauP9YXo0diog1D8CMEv1Q8RprQ6vpQh'
 output = 'model.pkl'
 
 gdown.download(url, output, quiet=False)
