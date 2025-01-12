@@ -15,7 +15,7 @@ import  matplotlib.pyplot as plt
 import gdown
 
 df = pd.read_csv("annotated.csv")
-#df = pd.read_csv('/Users/ainanadhirah/Downloads/annotated.csv')
+# df = pd.read_csv('/Users/ainanadhirah/Downloads/annotated.csv')
 
 
 nltk.download('wordnet')
@@ -25,15 +25,15 @@ nltk.download('punkt_tab')
 
 
 file_id = '1zauP9YXo0diog1D8CMEv1Q8RprQ6vpQh'
-url = f'https://drive.google.com/file/d/1zauP9YXo0diog1D8CMEv1Q8RprQ6vpQh/view?usp=drive_link'
+url = f'https://drive.google.com/uc?export=download&id={file_id}'
 output = 'model.pkl'
 
 gdown.download(url, output, quiet=False)
 
 # Now load the model
-model1 = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
-model = pickle.load(open("model.pkl", "rb"))
+# model = pickle.load(open("model.pkl", "rb"))
 tfidf_vectorizer = pickle.load(open("tfidf_vectorizer.pkl", "rb"))
 
 
