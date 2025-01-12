@@ -13,8 +13,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 import seaborn as sns
 import  matplotlib.pyplot as plt
 
-dt = pd.read_csv("annotated.csv")
-df = pd.read_csv('/Users/ainanadhirah/Downloads/annotated.csv')
+df = pd.read_csv("annotated.csv")
+#df = pd.read_csv('/Users/ainanadhirah/Downloads/annotated.csv')
 
 
 nltk.download('wordnet')
